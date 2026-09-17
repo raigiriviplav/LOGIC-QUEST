@@ -2,62 +2,60 @@
 
 > **Don't just learn to code. Learn to think through code.**
 
-**LOGIC QUEST** is a 2D adventure game that teaches programming logic through gameplay.
+**LOGIC QUEST** is a 2D adventure game designed to teach programming logic through gameplay.
 
-Instead of learning Python through traditional lessons and quizzes, players explore a fantasy world, solve challenges, defeat bosses, and develop their ability to **read, trace, debug, and reason about code**.
-
----
-
-## 🎮 Play the Game
-
-### 🚀 [▶ PLAY LOGIC QUEST — LIVE DEMO](https://raigiriviplav.github.io/2D-Maze-Game/)
-
-**No installation required. Open the link and start playing.**
+Instead of traditional lessons and quizzes, players explore a fantasy world, solve challenges, defeat bosses, and develop the ability to **read, trace, debug, and reason about code**.
 
 ---
 
-## 💡 Why LOGIC QUEST?
+## 🎮 Play LOGIC QUEST
+
+### 🚀 [▶️ PLAY LOGIC QUEST](https://ai.studio/apps/29ca6e6f-9bb0-40ec-b753-9cd94892ad9d)
+
+> **Open the link above to launch the game in Google AI Studio.**
+
+---
+
+## 💡 The Idea
 
 AI can generate code in seconds.
 
-But can you understand what that code actually does?
+**But can you understand what that code actually does?**
 
-LOGIC QUEST focuses on the skill that matters beyond syntax:
+LOGIC QUEST focuses on **programming logic and computational thinking**, helping players learn to:
 
-**Programming logic and computational thinking.**
+- 🔍 Trace code execution
+- 🧩 Solve logic problems
+- 🐞 Find bugs
+- ⚡ Make decisions under pressure
+- 🏗️ Build solutions
+- 🤖 Understand AI-generated code
 
-Players learn by:
+The goal is not simply to memorize syntax.
 
-- 🔍 Tracing code execution
-- 🧩 Solving logic problems
-- 🐞 Finding bugs
-- ⚡ Making decisions under pressure
-- 🏗️ Building solutions
-- 🧠 Understanding AI-generated code
+> **Don't teach people how to write code. Teach them how to THINK through code.**
 
 ---
 
-## 🌍 Game Structure
+# 🌍 Learning Journey
 
-The game is designed as an adventure journey:
+The game is structured as a progressive adventure.
 
-```text
+
 World
-  ↓
+   ↓
 Topic
-  ↓
+   ↓
 Subtopic
-  ↓
+   ↓
 Level
-  ↓
+   ↓
 Challenges
-  ↓
+   ↓
 Boss Battle
-```
 
-Each concept is taught through gameplay rather than traditional lectures.
 
-### 📚 Learning Journey
+### 📚 The 10 Worlds
 
 | World | Focus |
 |---|---|
@@ -74,7 +72,7 @@ Each concept is taught through gameplay rather than traditional lectures.
 
 ---
 
-## 🎮 Game Modes
+# 🎮 Game Modes
 
 Different programming concepts are taught through different gameplay mechanics.
 
@@ -94,13 +92,13 @@ Find and identify logical mistakes in code.
 Solve problems under increasing pressure.
 
 ### 🧱 Code Builder
-Arrange logic and instructions to construct a working solution.
+Arrange instructions and logic to construct a working solution.
 
 ---
 
-## ❤️ Challenge System
+# ❤️ Challenge System
 
-Each level uses a simple progression system:
+Each subtopic contains three levels:
 
 ### Level 1 — Understand
 Recognize and trace the concept.
@@ -113,19 +111,19 @@ Combine concepts and solve more challenging problems.
 
 Players have **3 lives per level**.
 
-Mistakes cost a life, but previously completed progress is preserved.
+Mistakes cost a life, while previously completed progress remains preserved.
 
 ---
 
-## 👑 Boss Battles
+# 👑 Boss Battles
 
-At the end of major learning sections, players face programming-themed bosses.
+Major learning sections end with programming-themed boss battles.
 
-Boss battles combine concepts learned throughout the world.
+Bosses combine concepts learned throughout the world.
 
 For example:
 
-**World 1 — Foundation Guardian**
+### 🌱 World 1 — Foundation Guardian
 
 Players must understand:
 
@@ -141,11 +139,11 @@ Mistakes allow the boss to attack.
 
 ---
 
-## 🧠 AI Mentor
+# 🧠 AI Mentor
 
 LOGIC QUEST is designed to use AI as a **personal programming mentor**, rather than simply generating answers.
 
-The mentor can analyze:
+The AI Mentor can analyze:
 
 - Mistake patterns
 - Weak concepts
@@ -154,11 +152,11 @@ The mentor can analyze:
 - Code comprehension
 - Speed and accuracy
 
-The goal is to help players understand **why they made a mistake**, not simply reveal the answer.
+The goal is to help players understand **why** they made a mistake.
 
 ---
 
-## 📊 Progression
+# 📊 Progression
 
 Players can progress through:
 
@@ -170,11 +168,11 @@ Players can progress through:
 - 🎨 Cosmetic skins
 - 🧠 Logic Profile
 
-Performance can influence challenge difficulty and future recommendations.
+Challenge difficulty can adapt based on player performance while the overall learning journey remains structured.
 
 ---
 
-## 🗺️ Adventure Map
+# 🗺️ Adventure Map
 
 The world map represents the player's programming journey.
 
@@ -184,7 +182,7 @@ The map is designed to make programming education feel like an **adventure game 
 
 ---
 
-## 🛠️ Technology
+# 🛠️ Technology
 
 ### Frontend
 - React
@@ -202,7 +200,7 @@ The map is designed to make programming education feel like an **adventure game 
 - Progression System
 - Reward System
 
-### Planned / Future
+### Planned Technologies
 - AI Mentor
 - Adaptive Difficulty
 - AI-generated challenge variations
@@ -213,36 +211,36 @@ The map is designed to make programming education feel like an **adventure game 
 
 ---
 
-## 💻 Run Locally
+# 💻 Run Locally
 
 Clone the repository:
 
-```bash
+bash
 git clone https://github.com/raigiriviplav/LOGIC-QUEST.git
 cd LOGIC-QUEST
-```
+
 
 Install dependencies:
 
-```bash
+bash
 npm install
-```
+
 
 Start the development server:
 
-```bash
+bash
 npm run dev
-```
+
 
 Then open the local URL shown by Vite, usually:
 
-```text
+text
 http://localhost:3000
-```
+
 
 ---
 
-## 🎯 Project Goal
+# 🎯 Project Goal
 
 Traditional programming education often focuses heavily on syntax.
 
@@ -250,35 +248,60 @@ LOGIC QUEST focuses on something deeper:
 
 > **Can you understand what the program is doing?**
 
-The long-term goal is to help learners become better at:
+The learning process is built around:
 
-**Understand → Trace → Decide → Build → Debug → Verify**
+
+Understand
+    ↓
+Trace
+    ↓
+Decide
+    ↓
+Build
+    ↓
+Debug
+    ↓
+Verify
+
 
 ---
 
-## 🚧 Project Status
+# 🚧 Project Status
 
-**Current Stage:** Active Development
+**Status: 🚀 Active Development**
 
-The current build focuses on establishing the core gameplay experience, World 1 progression, game modes, adventure map, and challenge systems.
+The current build focuses on:
 
-More worlds, AI systems, adaptive difficulty, multiplayer features, and additional progression systems are planned.
+- 🌍 Adventure World Map
+- 🌱 World 1 progression
+- 🎮 Gameplay modes
+- 🧩 Challenge system
+- ❤️ Lives and scoring
+- ⭐ XP and progression
+- 👑 Boss battle system
+- 🧠 AI-assisted learning features
+
+Additional worlds, adaptive difficulty, multiplayer, and advanced AI systems are planned for future versions.
 
 ---
 
-## 👨‍💻 Developer
+# 👨‍💻 Developer
 
 **Raigiri Viplav Krishna**
 
 B.Tech CSE  
 Malla Reddy University
 
-GitHub: [@raigiriviplav](https://github.com/raigiriviplav)
+### GitHub
+
+**[@raigiriviplav](https://github.com/raigiriviplav)**
 
 ---
 
-## ⭐ Support the Project
+# ⭐ Support the Project
 
-If you like the idea of turning programming education into an adventure game, consider giving the repository a ⭐ on GitHub.
+If you like the idea of turning programming education into an adventure game, consider giving the repository a ⭐.
 
-**Learn code. Understand logic. Complete the quest.**
+### 🧠 Learn Code. Understand Logic. Complete the Quest.
+
+**LOGIC QUEST** 🚀
