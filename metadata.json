@@ -1,0 +1,6 @@
+{
+  "name": "Logic Quest",
+  "description": "A 2D fantasy adventure game that teaches Python programming logic through gameplay.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

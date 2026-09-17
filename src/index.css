@@ -1,0 +1,253 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-medieval: 'MedievalSharp', cursive;
+    --font-adventure: 'Titan One', cursive;
+    --font-chunky: 'Fredoka', cursive, sans-serif;
+    --font-code: 'JetBrains Mono', monospace;
+    --font-body: 'Outfit', sans-serif;
+  }
+}
+
+.font-medieval {
+  font-family: var(--font-medieval), cursive;
+}
+
+.font-cinzel {
+  font-family: var(--font-cinzel), serif;
+}
+
+.font-adventure {
+  font-family: var(--font-adventure), cursive, sans-serif;
+}
+
+.font-chunky {
+  font-family: var(--font-chunky), sans-serif;
+}
+
+.font-code {
+  font-family: var(--font-code), monospace;
+}
+
+.font-body {
+  font-family: var(--font-body), sans-serif;
+}
+
+/* Chunky 3D Carved Game Typography */
+.text-carved-title {
+  font-family: var(--font-adventure), cursive;
+  color: #fff4d1;
+  text-shadow: 
+    -2px -2px 0 #7b4618,
+    2px -2px 0 #7b4618,
+    -2px 2px 0 #7b4618,
+    2px 2px 0 #7b4618,
+    0 4px 0 #4a2408,
+    0 6px 0 #331604,
+    0 8px 12px rgba(0, 0, 0, 0.85);
+}
+
+.text-carved-stone {
+  font-family: var(--font-adventure), cursive;
+  color: #f1f5f9;
+  text-shadow:
+    -2px -2px 0 #334155,
+    2px -2px 0 #334155,
+    -2px 2px 0 #334155,
+    2px 2px 0 #334155,
+    0 4px 0 #1e293b,
+    0 6px 0 #0f172a,
+    0 8px 10px rgba(0, 0, 0, 0.75);
+}
+
+.text-carved-gold {
+  font-family: var(--font-adventure), cursive;
+  color: #fffbeb;
+  text-shadow:
+    -2px -2px 0 #b45309,
+    2px -2px 0 #b45309,
+    -2px 2px 0 #b45309,
+    2px 2px 0 #b45309,
+    0 4px 0 #78350f,
+    0 6px 0 #451a03,
+    0 8px 14px rgba(0, 0, 0, 0.8);
+}
+
+/* Fantasy UI Surfaces */
+.wood-panel {
+  background: linear-gradient(180deg, #3d2212 0%, #24140b 100%);
+  border: 4px solid #5a341a;
+  box-shadow: 
+    inset 0 2px 4px rgba(255, 230, 180, 0.15),
+    inset 0 -3px 6px rgba(0, 0, 0, 0.8),
+    0 8px 24px rgba(0, 0, 0, 0.7);
+  position: relative;
+}
+
+.wood-panel-light {
+  background: linear-gradient(180deg, #4f2d18 0%, #331b0e 100%);
+  border: 3px solid #734524;
+  box-shadow: 
+    inset 0 1px 2px rgba(255, 220, 160, 0.2),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.7),
+    0 4px 14px rgba(0, 0, 0, 0.5);
+}
+
+.parchment-panel {
+  background: radial-gradient(circle at 50% 30%, #f7edd4 0%, #e8d5ae 60%, #cbb183 100%);
+  color: #2b180d;
+  border: 3px solid #7a5229;
+  box-shadow: 
+    inset 0 0 30px rgba(117, 76, 36, 0.35),
+    inset 0 1px 3px rgba(255, 255, 255, 0.5),
+    0 6px 18px rgba(0, 0, 0, 0.6);
+  position: relative;
+}
+
+.dark-parchment {
+  background: radial-gradient(circle at 50% 30%, #271a13 0%, #1a100a 70%, #110905 100%);
+  color: #eeddbb;
+  border: 2px solid #55331a;
+  box-shadow: 
+    inset 0 0 24px rgba(0, 0, 0, 0.8),
+    0 6px 20px rgba(0, 0, 0, 0.65);
+}
+
+/* Fantasy Buttons */
+.btn-fantasy-wood {
+  background: linear-gradient(180deg, #6c3f21 0%, #462612 100%);
+  border: 2px solid #8e552d;
+  box-shadow: 
+    inset 0 2px 0 rgba(255, 220, 170, 0.35),
+    inset 0 -3px 0 rgba(18, 9, 3, 0.8),
+    0 4px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.12s ease-out;
+}
+
+.btn-fantasy-wood:hover:not(:disabled) {
+  background: linear-gradient(180deg, #7e4b28 0%, #543018 100%);
+  border-color: #ba7645;
+  transform: translateY(-2px);
+  box-shadow: 
+    inset 0 2px 0 rgba(255, 240, 200, 0.45),
+    inset 0 -3px 0 rgba(18, 9, 3, 0.8),
+    0 6px 16px rgba(0, 0, 0, 0.6),
+    0 0 12px rgba(230, 160, 60, 0.3);
+}
+
+.btn-fantasy-wood:active:not(:disabled) {
+  transform: translateY(2px);
+  box-shadow: 
+    inset 0 3px 6px rgba(0, 0, 0, 0.8),
+    0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.btn-fantasy-gold {
+  background: linear-gradient(180deg, #d49e35 0%, #9e6d16 100%);
+  border: 2px solid #f6cf67;
+  color: #261404;
+  box-shadow: 
+    inset 0 2px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -3px 0 rgba(60, 35, 3, 0.8),
+    0 4px 12px rgba(0, 0, 0, 0.5);
+  transition: all 0.12s ease-out;
+}
+
+.btn-fantasy-gold:hover:not(:disabled) {
+  background: linear-gradient(180deg, #e5b045 0%, #b37e1b 100%);
+  border-color: #ffe694;
+  transform: translateY(-2px);
+  box-shadow: 
+    inset 0 2px 0 rgba(255, 255, 255, 0.7),
+    inset 0 -3px 0 rgba(60, 35, 3, 0.8),
+    0 6px 18px rgba(0, 0, 0, 0.6),
+    0 0 16px rgba(245, 190, 70, 0.5);
+}
+
+.btn-fantasy-gold:active:not(:disabled) {
+  transform: translateY(2px);
+  box-shadow: 
+    inset 0 3px 6px rgba(50, 28, 2, 0.9),
+    0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.btn-fantasy-stone {
+  background: linear-gradient(180deg, #444a4e 0%, #282d31 100%);
+  border: 2px solid #636b72;
+  box-shadow: 
+    inset 0 2px 0 rgba(255, 255, 255, 0.2),
+    inset 0 -3px 0 rgba(10, 12, 14, 0.8),
+    0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.btn-fantasy-stone:hover:not(:disabled) {
+  background: linear-gradient(180deg, #535a60 0%, #353a3f 100%);
+  border-color: #848f98;
+  transform: translateY(-2px);
+  box-shadow: 
+    inset 0 2px 0 rgba(255, 255, 255, 0.3),
+    0 6px 14px rgba(0, 0, 0, 0.6);
+}
+
+/* Ornate corner brackets for panels */
+.corner-ornament {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border: 3px solid #caa359;
+  pointer-events: none;
+}
+.corner-tl { top: -2px; left: -2px; border-right: none; border-bottom: none; }
+.corner-tr { top: -2px; right: -2px; border-left: none; border-bottom: none; }
+.corner-bl { bottom: -2px; left: -2px; border-right: none; border-top: none; }
+.corner-br { bottom: -2px; right: -2px; border-left: none; border-top: none; }
+
+/* Custom Rune & Torch glow animations */
+@keyframes torchFlicker {
+  0%, 100% { opacity: 0.9; transform: scale(1) translateY(0); filter: brightness(1); }
+  25% { opacity: 0.75; transform: scale(0.96) translateY(1px); filter: brightness(0.9); }
+  50% { opacity: 1; transform: scale(1.04) translateY(-1px); filter: brightness(1.2); }
+  75% { opacity: 0.85; transform: scale(0.98) translateY(0); filter: brightness(1.05); }
+}
+
+.torch-flicker {
+  animation: torchFlicker 3s infinite ease-in-out;
+}
+
+@keyframes runePulse {
+  0%, 100% { filter: drop-shadow(0 0 4px rgba(96, 165, 250, 0.5)); }
+  50% { filter: drop-shadow(0 0 14px rgba(96, 165, 250, 0.9)) drop-shadow(0 0 22px rgba(59, 130, 246, 0.6)); }
+}
+
+.rune-pulse {
+  animation: runePulse 2.4s infinite ease-in-out;
+}
+
+@keyframes goldPulse {
+  0%, 100% { filter: drop-shadow(0 0 3px rgba(245, 158, 11, 0.4)); }
+  50% { filter: drop-shadow(0 0 12px rgba(245, 158, 11, 0.8)); }
+}
+
+.gold-pulse {
+  animation: goldPulse 2s infinite ease-in-out;
+}
+
+/* Custom Scrollbar for parchment / logs */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1e130a;
+}
+::-webkit-scrollbar-thumb {
+  background: #5a351d;
+  border-radius: 4px;
+  border: 1px solid #7d4d2b;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7d4d2b;
+}
+
